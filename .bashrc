@@ -2,7 +2,10 @@
 source .bash_aliases
 source .git-completion.bash
 
-# bash history commands
+# PATH MODIFICATIONS
+export PATH="$PATH:/sbin:/usr/local/bin:/usr/local/sbin"
+
+# BASH HISTORY
 export HISTCONTROL=erasedups
 export HISTSIZE=10000
 shopt -s histappend
